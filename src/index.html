@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ${htmlAttrs}>
+<head>
+
+    ${head}
+</head>
+<body ${bodyAttrs}>
+${app}
+
+<script src="https://cdn.jsdelivr.net/npm/quasar@1.9.15/dist/quasar.ie.polyfills.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quasar@1.9.15/dist/quasar.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quasar@1.9.15/dist/lang/de.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quasar@1.9.15/dist/icon-set/svg-fontawesome-v5.umd.min.js"></script>
+<script>
+    Quasar.lang.set(Quasar.lang.de)
+    Quasar.iconSet.set(Quasar.iconSet.svgFontawesomeV5)
+</script>
+
+${scripts}
+
+</body>
+</html>
